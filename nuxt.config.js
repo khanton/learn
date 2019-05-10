@@ -2,6 +2,9 @@ import pkg from './package'
 
 export default {
   mode: 'spa',
+  router: {
+    base: '/learn/'
+  },
 
   /*
   ** Headers of the page

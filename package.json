@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "push-dir": "^0.4.1"
   }
 }
