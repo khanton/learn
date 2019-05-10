@@ -11,12 +11,12 @@ export const mutations = {
   reset(state) {
     state.current = state.list;
     [state.item] = state.current.splice(Math.floor(Math.random() * state.current.length), 1)
-  
+
   },
   set(state, list) {
     state.list = list
     state.current = list;
-    [ state.item ] = state.current.splice(Math.floor(Math.random() * state.current.length), 1)
+    [state.item] = state.current.splice(Math.floor(Math.random() * state.current.length), 1)
   },
 }
 
